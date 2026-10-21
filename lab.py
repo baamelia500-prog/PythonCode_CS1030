@@ -17,6 +17,6 @@ print(f"Your average score is: {average}") # changed format to f-string formatti
 
 highest = 0
 for s in scores:
-    highest = max(highest, s) # used suggested code by VSCode
+    highest = max(highest, s) # used suggested code by VSCode -- logical error (?)
 
 print(f"Your highest score was: {highest}") # changed format to f-string formatting
